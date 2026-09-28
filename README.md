@@ -8,17 +8,17 @@
 <p>
   <a href="https://sentinel-ivory-two-76.vercel.app/"><img src="docs/img/btn-live-demo.svg" height="38" alt="Try the live demo"></a>
   <a href="#quick-start"><img src="docs/img/btn-quick-start.svg" height="38" alt="Quick start"></a>
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/releases/latest/download/sentinel-md.vsix"><img src="docs/img/btn-vscode.svg" height="38" alt="Download the VS Code extension"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL/releases/latest/download/sentinel-md.vsix"><img src="docs/img/btn-vscode.svg" height="38" alt="Download the VS Code extension"></a>
   <a href="#measured-not-claimed"><img src="docs/img/btn-benchmarks.svg" height="38" alt="Benchmarks"></a>
   <a href="#architecture"><img src="docs/img/btn-architecture.svg" height="38" alt="Architecture"></a>
 </p>
 
 <p>
   <a href="https://pypi.org/project/sentinel-md/"><img src="https://img.shields.io/badge/pypi-v1.0.0-2457f5" alt="PyPI version"></a>
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/actions/workflows/tests.yml"><img src="https://github.com/GarvitAgrawal04/SENTINEL/actions/workflows/tests.yml/badge.svg?branch=main" alt="tests"></a>
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/actions/workflows/sentinel-sign.yml"><img src="https://github.com/GarvitAgrawal04/SENTINEL/actions/workflows/sentinel-sign.yml/badge.svg?branch=main" alt="lock signed by CI"></a>
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL#inside-vs-code"><img src="https://img.shields.io/badge/openvsx-sentinel--md-blue?logo=visualstudiocode" alt="OpenVSX"></a>
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/releases/latest"><img src="https://img.shields.io/github/v/release/GarvitAgrawal04/SENTINEL?label=release&color=2457f5" alt="latest release"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL/actions/workflows/tests.yml"><img src="https://github.com/kambojmayan-png/SENTINEL/actions/workflows/tests.yml/badge.svg?branch=main" alt="tests"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL/actions/workflows/sentinel-sign.yml"><img src="https://github.com/kambojmayan-png/SENTINEL/actions/workflows/sentinel-sign.yml/badge.svg?branch=main" alt="lock signed by CI"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL#inside-vs-code"><img src="https://img.shields.io/badge/openvsx-sentinel--md-blue?logo=visualstudiocode" alt="OpenVSX"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL/releases/latest"><img src="https://img.shields.io/github/v/release/kambojmayan-png/SENTINEL?label=release&color=2457f5" alt="latest release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-2457f5" alt="Apache-2.0 licence"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-2457f5" alt="Python 3.10 or newer">
   <img src="https://img.shields.io/badge/scanner-offline%20%C2%B7%20zero%20dependencies-1b8a5a" alt="the scanner is offline and has zero dependencies">
@@ -88,7 +88,7 @@ for reference attack 01, drawn by the generator from the live command.
 <img src="docs/img/terminal-gate.svg" alt="Terminal output of sentinel run: verdict COMPROMISED, four tools wired to auto-run one unreadable 60 kB script, and the line 'sentinel: refusing to start claude here'">
 
 **On a pull request.** A four-character edit hidden in a commit called *chore: bump deps* gets this comment, and the check fails.
-The text is the real comment from [pull request #6](https://github.com/GarvitAgrawal04/SENTINEL/pull/6).
+The text is the real comment from [pull request #6](https://github.com/kambojmayan-png/SENTINEL/pull/6).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/pr-comment-dark.svg">
@@ -134,17 +134,17 @@ Or clone the repository for the full web UI and local API — see [Install and r
 | **`pipx`** | `pipx run sentinel-md scan .` | Zero-install isolated execution |
 | **`uvx`** | `uvx sentinel-md scan .` | Lightning-fast ephemeral execution with `uv` |
 | **Pre-commit** | `.pre-commit-config.yaml` (`sentinel-scan`, `sentinel-doctor`) | Automated local pre-commit verification |
-| **GitHub Actions** | `uses: GarvitAgrawal04/SENTINEL/action@main` | CI PR behavioral diffs & SARIF Code Scanning |
+| **GitHub Actions** | `uses: kambojmayan-png/SENTINEL/action@main` | CI PR behavioral diffs & SARIF Code Scanning |
 | **Cursor / Windsurf** | OpenVSX: `sentinel-md` (or install `.vsix`) | In-editor underlining & safe rewrites |
 | **VS Code** | VS Code Marketplace: `sentinel-md` | In-editor underlining & safe rewrites |
-| **Local Clone** | `git clone https://github.com/GarvitAgrawal04/SENTINEL` | Full development, offline website, tests |
+| **Local Clone** | `git clone https://github.com/kambojmayan-png/SENTINEL` | Full development, offline website, tests |
 
 See [`docs/INSTALL.md`](docs/INSTALL.md) for complete installation options.
 
 <p>
   <a href="#install-and-run"><img src="docs/img/btn-docs.svg" height="40" alt="Full reference"></a>&nbsp;
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/releases/latest/download/sentinel-md.vsix"><img src="docs/img/btn-vscode.svg" height="40" alt="Download the VS Code extension"></a>&nbsp;
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/issues/new"><img src="docs/img/btn-report.svg" height="40" alt="Report a bypass or a false alarm"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL/releases/latest/download/sentinel-md.vsix"><img src="docs/img/btn-vscode.svg" height="40" alt="Download the VS Code extension"></a>&nbsp;
+  <a href="https://github.com/kambojmayan-png/SENTINEL/issues/new"><img src="docs/img/btn-report.svg" height="40" alt="Report a bypass or a false alarm"></a>
 </p>
 
 ## How it works
@@ -170,12 +170,12 @@ See [`docs/INSTALL.md`](docs/INSTALL.md) for complete installation options.
   <tr>
     <td width="33%" valign="top"><img src="docs/img/icon-cli.svg" width="44" alt=""><br><b><a href="#2-the-command-line">Command line</a></b><br><code>sentinel scan .</code> reads a project in milliseconds. Exit codes 0 / 3 / 2 for scripts.</td>
     <td width="33%" valign="top"><img src="docs/img/icon-gate.svg" width="44" alt=""><br><b><a href="#3-the-gate-stop-the-agent-before-it-starts">The gate</a></b><br><code>sentinel run -- claude</code> refuses to start an agent in a compromised project. Works even when CI is bypassed.</td>
-    <td width="33%" valign="top"><img src="docs/img/icon-pr.svg" width="44" alt=""><br><b><a href="#4-check-every-pull-request">Pull-request check</a></b><br>One workflow file. A plain-English comment on every PR; the check fails when the change is compromised. <a href="https://github.com/GarvitAgrawal04/SENTINEL/pull/6">See a real one</a>.</td>
+    <td width="33%" valign="top"><img src="docs/img/icon-pr.svg" width="44" alt=""><br><b><a href="#4-check-every-pull-request">Pull-request check</a></b><br>One workflow file. A plain-English comment on every PR; the check fails when the change is compromised. <a href="https://github.com/kambojmayan-png/SENTINEL/pull/6">See a real one</a>.</td>
   </tr>
   <tr>
     <td valign="top"><img src="docs/img/icon-lock.svg" width="44" alt=""><br><b><a href="#5-agentslock-a-signed-record-of-what-was-approved">AGENTS.lock</a></b><br>A signed record of which hooks and tool servers were approved, by whom. Only CI can sign it; a PR cannot approve itself.</td>
     <td valign="top"><img src="docs/img/icon-web.svg" width="44" alt=""><br><b><a href="#1-the-web-ui">Web app and API</a></b><br>Paste, upload or drop a folder. Hidden characters revealed in place. <a href="https://sentinel-ivory-two-76.vercel.app/">Live demo</a>, or run it locally.</td>
-    <td valign="top"><img src="docs/img/icon-vscode.svg" width="44" alt=""><br><b><a href="#6-inside-vs-code">VS Code extension</a></b><br>Underlines the line as you save. Works in untrusted folders. <a href="https://github.com/GarvitAgrawal04/SENTINEL/releases/latest/download/sentinel-md.vsix">Download the .vsix</a>.</td>
+    <td valign="top"><img src="docs/img/icon-vscode.svg" width="44" alt=""><br><b><a href="#6-inside-vs-code">VS Code extension</a></b><br>Underlines the line as you save. Works in untrusted folders. <a href="https://github.com/kambojmayan-png/SENTINEL/releases/latest/download/sentinel-md.vsix">Download the .vsix</a>.</td>
   </tr>
 </table>
 
@@ -290,7 +290,7 @@ Nothing else. No Node.js, no Docker, no database, no cloud account, no API key.
 **Windows (PowerShell or cmd):**
 
 ```powershell
-git clone https://github.com/GarvitAgrawal04/SENTINEL.git
+git clone https://github.com/kambojmayan-png/SENTINEL.git
 cd SENTINEL
 git pull
 .\setup.bat
@@ -299,7 +299,7 @@ git pull
 **macOS, Linux, Git Bash:**
 
 ```bash
-git clone https://github.com/GarvitAgrawal04/SENTINEL.git
+git clone https://github.com/kambojmayan-png/SENTINEL.git
 cd SENTINEL
 git pull
 bash setup.sh
@@ -332,7 +332,7 @@ Prefer `make`? `make run` · `make install` · `make test` · `make scan` · `ma
 If you prefer not to run a script, these are the same steps:
 
 ```powershell
-git clone https://github.com/GarvitAgrawal04/SENTINEL.git
+git clone https://github.com/kambojmayan-png/SENTINEL.git
 cd SENTINEL
 python -m venv .venv
 .venv\Scripts\Activate.ps1
@@ -349,8 +349,8 @@ If activation is blocked: `Set-ExecutionPolicy -Scope Process Bypass`, then acti
 The scanner, the gate and the pull-request diff use the Python standard library only:
 
 ```bash
-pip install "git+https://github.com/GarvitAgrawal04/SENTINEL"          # scanner, gate, PR diff
-pip install "sentinel-md[sign] @ git+https://github.com/GarvitAgrawal04/SENTINEL"   # + AGENTS.lock signing
+pip install "git+https://github.com/kambojmayan-png/SENTINEL"          # scanner, gate, PR diff
+pip install "sentinel-md[sign] @ git+https://github.com/kambojmayan-png/SENTINEL"   # + AGENTS.lock signing
 ```
 
 ### Deploy it (Vercel)
@@ -471,7 +471,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }            # the base ref must be available
-      - uses: GarvitAgrawal04/SENTINEL/action@main
+      - uses: kambojmayan-png/SENTINEL/action@main
         with: { fail-on: compromised }      # or: suspicious | never
 ```
 
@@ -506,7 +506,7 @@ Audit agent configs locally before every commit by adding Sentinel to `.pre-comm
 
 ```yaml
 repos:
-  - repo: https://github.com/GarvitAgrawal04/SENTINEL
+  - repo: https://github.com/kambojmayan-png/SENTINEL
     rev: v0.9.8
     hooks:
       - id: sentinel-scan
@@ -652,7 +652,7 @@ SENTINEL_LLM_MODEL=openai/gpt-oss-20b
 `SENTINEL_LLM_KEY`, then:
 
 ```yaml
-      - uses: GarvitAgrawal04/SENTINEL/action@main
+      - uses: kambojmayan-png/SENTINEL/action@main
         with: { fail-on: compromised, detonate: "true" }
         env:
           SENTINEL_LLM_KEY: ${{ secrets.SENTINEL_LLM_KEY }}
@@ -1151,5 +1151,5 @@ Aikido, Wiz and Trail of Bits made this project possible. Sentinel is an open-so
 <div align="center"><br>
   <a href="https://sentinel-ivory-two-76.vercel.app/"><img src="docs/img/btn-live-demo.svg" height="44" alt="Try the live demo"></a>&nbsp;
   <a href="#quick-start"><img src="docs/img/btn-quick-start.svg" height="44" alt="Quick start"></a>&nbsp;
-  <a href="https://github.com/GarvitAgrawal04/SENTINEL/issues/new"><img src="docs/img/btn-report.svg" height="44" alt="Report a bypass or a false alarm"></a>
+  <a href="https://github.com/kambojmayan-png/SENTINEL/issues/new"><img src="docs/img/btn-report.svg" height="44" alt="Report a bypass or a false alarm"></a>
 </div>
